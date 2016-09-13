@@ -92,7 +92,7 @@ var entries = [
 ```
 
 ---
-##### patterns `Array<String>`
+##### patterns `Array<String> | String`
 
 List of patterns that are searched in the **_entries_**.
 
@@ -112,7 +112,7 @@ the pattern 'oi'
 *The optional parameter 'maxInsertions' limit the number of insertions authorised.*
 
 ---
-##### fields `Array<String>`
+##### fields `Object`
 
 List of objects's properties where the **_patterns_** are searched.
 
